@@ -119,6 +119,18 @@ figcaption {
   text-align: center;
 }
 
+.download-actions {
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.download-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+}
+
 .footer {
   display: flex;
   justify-content: space-between;
