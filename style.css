@@ -94,18 +94,29 @@ h2 {
 }
 
 .why ul {
-  margin: 8px 0 0;
-  padding-left: 18px;
+  margin: 6px 0 0;
+  padding-left: 16px;
   color: var(--muted);
 }
 
+.screens ul {
+  margin: 6px 0 0;
+  padding-left: 16px;
+  color: var(--muted);
+}
+
+.screens ul ul {
+  margin-top: 4px;
+  padding-left: 16px;
+}
+
 .why ul ul {
-  margin-top: 6px;
-  padding-left: 18px;
+  margin-top: 4px;
+  padding-left: 16px;
 }
 
 .why li {
-  margin: 6px 0;
+  margin: 4px 0;
 }
 
 figure {
