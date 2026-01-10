@@ -31,10 +31,20 @@ body {
 }
 
 .hero img {
-  width: 100%;
   height: auto;
   border-radius: 12px;
   display: block;
+}
+
+.logo {
+  width: 96px;
+  height: 96px;
+  border-radius: 18px;
+}
+
+.mini-shot {
+  width: 420px;
+  max-width: 100%;
 }
 
 .brand {
@@ -104,8 +114,9 @@ figcaption {
   display: flex;
   gap: 16px;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
+  text-align: center;
 }
 
 .footer {
@@ -122,8 +133,13 @@ figcaption {
     grid-template-columns: 1fr;
   }
 
-  .hero img {
-    max-width: 360px;
+  .mini-shot {
+    width: 320px;
+  }
+
+  .logo {
+    width: 72px;
+    height: 72px;
   }
 }
 
