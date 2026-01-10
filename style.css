@@ -11,7 +11,7 @@
 
 body {
   margin: 0;
-  font-family: "Bookman Old Style", Bookman, Palatino, serif;
+  font-family: "Avenir Next", "Gill Sans", "Trebuchet MS", sans-serif;
   background: var(--bg);
   color: var(--ink);
   line-height: 1.5;
@@ -25,7 +25,7 @@ body {
 
 .hero {
   display: grid;
-  grid-template-columns: 96px 1fr 320px;
+  grid-template-columns: 96px 1fr 420px;
   gap: 18px;
   align-items: center;
 }
@@ -39,20 +39,20 @@ body {
 
 .brand {
   margin: 0 0 6px;
-  letter-spacing: 0.22em;
-  font-size: 11px;
-  text-transform: uppercase;
-  color: var(--muted);
-}
-
-h1 {
-  margin: 0 0 8px;
-  font-size: 30px;
+  font-size: 34px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
 }
 
 h2 {
   margin: 0 0 6px;
   font-size: 20px;
+}
+
+.subtitle {
+  margin: 0 0 8px;
+  font-size: 16px;
+  color: var(--muted);
 }
 
 .tagline {
@@ -89,6 +89,11 @@ figure img {
   display: block;
 }
 
+.full-shot img {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
 figcaption {
   margin-top: 6px;
   font-size: 12px;
@@ -118,15 +123,11 @@ figcaption {
   }
 
   .hero img {
-    max-width: 320px;
+    max-width: 360px;
   }
 }
 
 @media (max-width: 600px) {
-  h1 {
-    font-size: 24px;
-  }
-
   .footer {
     flex-direction: column;
   }
