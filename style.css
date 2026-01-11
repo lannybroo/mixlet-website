@@ -25,7 +25,7 @@ body {
 
 .hero {
   display: grid;
-  grid-template-columns: 96px 1fr 420px;
+  grid-template-columns: 320px 1fr;
   gap: 18px;
   align-items: center;
 }
@@ -36,10 +36,9 @@ body {
   display: block;
 }
 
-.logo {
-  width: 96px;
-  height: 96px;
-  border-radius: 18px;
+.hero-art {
+  width: 320px;
+  max-width: 100%;
 }
 
 .mini-shot {
@@ -63,7 +62,7 @@ body {
 
 .brand {
   margin: 0 0 6px;
-  font-size: 34px;
+  font-size: 44px;
   font-weight: 600;
   letter-spacing: 0.02em;
 }
@@ -105,6 +104,10 @@ h2 {
 
 .why {
   margin: 14px 0 18px;
+  display: grid;
+  grid-template-columns: 1fr 360px;
+  gap: 18px;
+  align-items: start;
 }
 
 .why ul {
@@ -201,9 +204,8 @@ figcaption {
     width: 320px;
   }
 
-  .logo {
-    width: 72px;
-    height: 72px;
+  .why {
+    grid-template-columns: 1fr;
   }
 }
 
