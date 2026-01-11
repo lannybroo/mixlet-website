@@ -42,22 +42,20 @@ body {
 }
 
 .mini-shot {
-  width: 480px;
+  width: 400px;
   max-width: 100%;
+  margin: 0 auto;
 }
 
 .mini-figure {
   margin: 0;
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: center;
+  text-align: center;
 }
 
 .mini-figure figcaption {
-  margin: 0 0 2px;
+  margin-top: 4px;
   font-size: 12px;
   color: #4e3f2f;
-  transform: translate(-34px, 17px);
 }
 
 .brand {
@@ -100,6 +98,7 @@ h2 {
 
 .screens {
   margin: 18px 0;
+  padding: 8px 0;
 }
 
 .why {
@@ -157,20 +156,21 @@ figure img {
 .full-shot img {
   max-width: 760px;
   margin: 0 auto;
+  margin-top: 20px;
 }
 
 .full-shot figcaption {
-  margin-bottom: 2px;
+  margin-top: 6px;
   font-size: 12px;
   color: #4e3f2f;
   text-align: center;
-  transform: translateY(25px);
 }
 
 figcaption {
   margin-top: 6px;
   font-size: 12px;
   color: var(--muted);
+  text-align: center;
 }
 
 .download {
@@ -210,10 +210,15 @@ figcaption {
 
   .mini-shot {
     width: 320px;
+    margin: 0 auto;
   }
 
   .why {
     grid-template-columns: 1fr;
+  }
+
+  .mini-figure {
+    text-align: center;
   }
 }
 
