@@ -101,6 +101,11 @@ h2 {
   padding: 8px 0;
 }
 
+.shortcuts {
+  margin: 14px 0 18px;
+  text-align: left;
+}
+
 .why {
   margin: 14px 0 18px;
   display: grid;
@@ -118,6 +123,49 @@ h2 {
 .screens ul {
   margin: 6px 0 0;
   padding-left: 16px;
+  color: var(--muted);
+}
+
+.shortcuts ul {
+  list-style: none;
+  margin: 8px 0 0;
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: #efe6d6;
+  max-width: 250px;
+  margin-left: 30px;
+  margin-right: auto;
+}
+
+.shortcuts li {
+  margin: 6px 0;
+  color: var(--ink);
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 12px;
+  align-items: baseline;
+}
+
+.shortcut-label {
+  font-weight: 500;
+}
+
+.shortcut-keys {
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.02em;
+  text-align: right;
+  font-family: -apple-system, "SF Pro Text", "SF Pro Display", system-ui, sans-serif;
+}
+
+.shortcuts-divider {
+  height: 1px;
+  background: #d7cdbb;
+  margin: 4px 0;
+  grid-column: 1 / -1;
+}
+
+.shortcuts-intro {
+  margin: 6px 0 0;
   color: var(--muted);
 }
 
