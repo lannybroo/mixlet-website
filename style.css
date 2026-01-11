@@ -42,7 +42,7 @@ body {
 }
 
 .mini-shot {
-  width: 420px;
+  width: 480px;
   max-width: 100%;
 }
 
@@ -105,7 +105,7 @@ h2 {
 .why {
   margin: 14px 0 18px;
   display: grid;
-  grid-template-columns: 1fr 360px;
+  grid-template-columns: 1fr 480px;
   gap: 18px;
   align-items: start;
 }
@@ -120,6 +120,14 @@ h2 {
   margin: 6px 0 0;
   padding-left: 16px;
   color: var(--muted);
+}
+
+.style-inline em {
+  color: #4f86c6;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  font-variant: small-caps;
 }
 
 .screens ul ul {
