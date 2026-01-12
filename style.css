@@ -231,24 +231,58 @@ figcaption {
 }
 
 .download-actions {
-  display: inline-flex;
-  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
   align-items: center;
 }
 
-.download-icon {
-  width: 52px;
-  height:52px;
-  border-radius: 10px;
+.footer {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: start;
+  gap: 12px;
+  padding-top: 18px;
+  border-top: 1px solid #ded3c2;
+  margin-top: 24px;
 }
 
-.footer {
-  display: flex;
-  justify-content: space-between;
-  gap: 12px;
+.footer-mark {
+  text-align: center;
+  grid-column: 2;
+}
+
+.footer-credit {
+  grid-column: 1;
+}
+
+.footer-mark {
+  text-align: center;
+}
+
+.footer-badge {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  color: var(--ink);
+}
+
+.footer-badge img {
+  width: 96px;
+  height: 96px;
+  display: block;
+}
+
+.footer-badge span {
+  font-size: 14px;
+  color: var(--ink);
+}
+
+.footer-credit {
   font-size: 12px;
   color: var(--muted);
-  margin-top: 16px;
 }
 
 @media (max-width: 760px) {
