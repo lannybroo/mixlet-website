@@ -98,6 +98,17 @@ h2 {
   color: var(--muted);
 }
 
+.app-store-badge {
+  display: inline-block;
+  margin-top: 8px;
+}
+
+.app-store-badge img {
+  width: 190px;
+  height: auto;
+  display: block;
+}
+
 .meta {
   margin: 6px 0 0;
   font-size: 12px;
@@ -124,7 +135,7 @@ h2 {
 }
 
 .why {
-  margin: 14px 0 18px;
+  margin: 30px 0 18px;
   display: grid;
   grid-template-columns: 1fr 480px;
   gap: 18px;
@@ -238,22 +249,6 @@ figcaption {
   text-align: center;
 }
 
-.download {
-  display: flex;
-  gap: 16px;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  text-align: center;
-}
-
-.download-actions {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  align-items: center;
-}
-
 .faq {
   margin: 14px 0 18px;
 }
@@ -331,6 +326,10 @@ figcaption {
 @media (max-width: 760px) {
   .hero {
     grid-template-columns: 1fr;
+  }
+
+  .app-store-badge {
+    margin-top: 10px;
   }
 
   .mini-shot {
