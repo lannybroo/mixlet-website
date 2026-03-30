@@ -26,7 +26,7 @@ body {
 .hero {
   display: grid;
   grid-template-columns: 320px 1fr;
-  gap: 18px;
+  gap: 15px;
   align-items: center;
 }
 
