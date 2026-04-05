@@ -71,7 +71,7 @@ body {
 
 .mini-figure figcaption {
   margin-top: 4px;
-  font-size: 12px;
+  font-size: 14px;
   color: #4e3f2f;
 }
 
@@ -237,7 +237,7 @@ figure img {
 
 .full-shot figcaption {
   margin-top: 6px;
-  font-size: 12px;
+  font-size: 14px;
   color: #4e3f2f;
   text-align: center;
 }
