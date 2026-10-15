@@ -190,6 +190,20 @@ h2 {
   font-family: -apple-system, "SF Pro Text", "SF Pro Display", system-ui, sans-serif;
 }
 
+/* A shortcut mentioned in running text, drawn as a small key cap. */
+kbd {
+  font-family: -apple-system, "SF Pro Text", "SF Pro Display", system-ui, sans-serif;
+  font-size: 0.85em;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  padding: 0.05em 0.4em;
+  border: 1px solid #cdbfa6;
+  border-radius: 5px;
+  background: #fff;
+  /* A slightly thicker bottom edge, like a real key. */
+  box-shadow: 0 1px 0 #cdbfa6;
+}
+
 .shortcuts-divider {
   height: 1px;
   background: #d7cdbb;
