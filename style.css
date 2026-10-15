@@ -58,6 +58,11 @@ body {
   color: var(--accent);
 }
 
+/* Mini player buttons, cut from the app's own capture, shown inline in text. */
+.ui-icon {
+  vertical-align: -0.2em;
+}
+
 .mini-shot {
   width: 400px;
   max-width: 100%;
